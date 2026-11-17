@@ -1,0 +1,41 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #eef4f8;
+  color: #243447;
+  margin: 0;
+  padding: 40px 16px;
+}
+main {
+  max-width: 600px;
+  margin: auto;
+}
+h1 { color: #087e8b; }
+section {
+  background: white;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px #00000012;
+}
+label {
+  display: block;
+  margin-top: 16px;
+  font-weight: bold;
+}
+input, select, button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  margin-top: 7px;
+}
+button {
+  margin-top: 22px;
+  background: #087e8b;
+  color: white;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.estado { color: green; }
+.nota { font-size: 13px; color: #666; }
+footer { margin-top: 24px; text-align: center; }
